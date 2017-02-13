@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 1024M
+  memory: 750M
   instances: 1
   domain: mybluemix.net
   name: sacpop-node-red
