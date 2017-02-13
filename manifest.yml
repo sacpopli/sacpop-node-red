@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sacpop-node-red
+  host: sacpop-node-red
+  disk_quota: 1024M
+  services:
+  - sacpop-node-red-cloudantNoSQLDB
+  - Language Translator-a0
+  - Conversation-jo
